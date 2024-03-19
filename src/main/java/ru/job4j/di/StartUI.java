@@ -9,6 +9,10 @@ public class StartUI {
         this.store = store;
     }
 
+    public String ask(String question) {
+        return consoleInput.askStr(question);
+    }
+
     public void add(String value) {
         store.add(value);
     }
